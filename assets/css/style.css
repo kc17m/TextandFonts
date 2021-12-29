@@ -1,0 +1,151 @@
+/* lev1_1 
+Die <h2> Font ist 48px groß, hat einen Hintergrund und die Font-Family ist Arial. 
+Das <p> Tag hat die Farbe #333 und die Schriftgröße ist 20px.
+Das li-Element hat die Farbe #777, 20px Schriftgröße und Text Decoration.
+*/ 
+
+
+
+h2:nth-of-type(1) {
+    font-size: 48px;
+    background: gray;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+p:nth-of-type(1) {
+    color: #333;
+    font-size: 20px;
+    margin: 0 25px; 
+}
+
+ul:nth-of-type(1) {
+    color: #777;
+    font-size: 20px;
+     
+    
+}
+
+li:nth-of-type(1) h3 {
+    text-decoration: overline;
+    margin: 5px 20px 0 0 ; 
+     
+}
+
+li:nth-of-type(2) h4 {
+    text-decoration: line-through;
+    margin: 5px 20px 0 100px; 
+}
+
+li:nth-of-type(3) h5 {
+    text-decoration: underline;
+    margin: 5px 20px 0 300px;
+     
+}
+/* lev2_1 
+Die <h1> ist 48px groß, hat einen Background, Text-shadow und die Font-Family Tahoma
+Die ersten <p> Tags haben einen text-indent, word-spacing und die Font-Family ‘Lucida Sans Unicode’
+Das nächste <p> hat word-spacing und text-indent
+Die <h2> hat text shadow und letter-spacing
+Die letzten Paragraphen haben eine bestimmte line-height und Background Formatierung.
+Der HTML-Code befindet aus dem Kommentarbereich.
+*/ 
+
+h1:nth-of-type(1) {
+    font-size: 48px;
+    background: rgb(77, 70, 70);
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 5px 5px black;
+}
+
+nav p:nth-of-type(1) {
+    text-indent: 40px;
+    word-spacing: 20px;
+    font-family: 'Lucida Sans Unicode';
+    margin: 15px;
+
+}
+
+main p:nth-of-type(1) {
+    word-spacing: -3px;
+    text-indent: 60px;
+    font-family: 'Lucida Sans Unicode';
+    margin: 15px;
+
+}
+
+h2:nth-of-type(2) {
+    text-shadow: 2px 1px rgb(167, 158, 158);
+    margin: 30px;
+    letter-spacing: 5px;
+
+} 
+
+section:nth-of-type(1) p:nth-of-type(1) {
+    background: gray;
+    margin: 15px;
+    padding: 5px 15px;
+    line-height: 20px;
+}
+
+aside p:nth-of-type(1) {
+    color: white;
+    background: rgb(49, 45, 45);
+    margin: 15px;
+    padding: 5px 15px;
+    line-height: 20px;
+}
+
+
+/* lev3_1 
+Die <h1> ist 48px groß und hat einen Background, text-align und die font-family Tahoma
+Beide Paragraphen haben text-transform und text-decoration
+Die <h2> hat word-spacing und letter-spacing, dazu einen text-shadow
+<ul> und <li> haben bestimmte background-color Angaben
+Der HTML-Code befindet sich im Kommentarbereich
+*/ 
+
+h1:nth-of-type(2) {
+    font-size: 48px;
+    background: rgb(99, 91, 91);
+    color: white;
+    text-align: center;
+    font-family: Tahoma;
+    padding: 10px;
+
+}
+
+article:nth-of-type(1) p {
+   text-transform:uppercase;
+   text-decoration: underline;
+   margin: 20px
+
+}
+
+section:nth-of-type(2) p {
+    text-transform: lowercase ;
+    text-decoration-line: underline;
+    margin: 20px;
+}
+
+h2:nth-of-type(3) {
+    color: rgb(175, 162, 162);
+    text-shadow: -2px -2px rgb(68, 63, 63);
+    letter-spacing: 8px;
+    text-align: right;
+}
+
+
+ul:nth-of-type(2) {
+    margin: 10px 5px;
+    background: darkgray;
+}
+
+ul:nth-of-type(2) li {
+    background: rgb(109, 104, 104);
+    margin: 10px 40px
+}
